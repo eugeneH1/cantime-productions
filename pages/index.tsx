@@ -53,7 +53,8 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           <div className="after:content relative mb-5 flex h-[629px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-white/10 px-6 pb-16 pt-64 text-center text-white shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
             <div className="absolute inset-0 flex items-center justify-center opacity-20">
               <span className="flex max-h-full max-w-full items-center justify-center">
-                <Bridge />
+                {/* <Bridge /> */}
+                <Image src="/logo.png" alt="Cantime Productions Logo" width={500} height={500} className="invert"/>
               </span>
               <span className="absolute left-0 right-0 bottom-0 h-[400px] bg-gradient-to-b from-black/0 via-black to-black"></span>
             </div>
